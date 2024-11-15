@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(196, 190, 190); /* Set the background to black */
+    color: black; /* Set the text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: black; /* White color for headers */
+    text-shadow: 2px 2px 5px rgba(0, 128, 0, 0.6); /* Subtle green shadow for headers */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(196, 190, 190);
+    /* border-bottom: 3px solid black; */ /* Thicker green border at the bottom of the header */
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.3); /* Subtle green shadow */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 2px;
+    margin: 0;
+    /*margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;*/
+    text-align: center;
+    background-color: rgb(0, 97, 0); /* Green background for the navigation */
+    border-bottom: 3px solid black; /* Thicker white border under the navigation */
+    border-top: 3px solid black;
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.3); /* Green shadow for the nav */
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 12px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+ul li a:hover {
+    background-color: black;
+    color: green; /* Change text color to green on hover */
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.5); /* Green shadow on hover */
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap if the screen is too small */
+    justify-content: space-around; /* Space the content evenly */
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    margin: 20px;
+    max-width: 800px;
+    border: 2px solid green; /* Green border around content */
+    padding: 20px;
+    flex: 1 1 45%; /* Flexbox: 45% width with wrapping */
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.2); /* Subtle green shadow for content boxes */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.content:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.4); /* Darker green shadow on hover */
+    transform: translateY(-5px); /* Lift the content box slightly on hover */
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    overflow-wrap: break-word; /* Ensures text wraps properly */
+}
+
+.content:first-child p {
+    text-align: start; /* Align first paragraph to the right */
+}
+
+.content:nth-child(2) p {
+    text-align: start; /* Align second paragraph to the left */
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.img-index{
+    margin-bottom: 45px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(196, 190, 190);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid green; /* Thicker green border at the top of the footer */
+    box-shadow: 0 -4px 6px rgba(0, 255, 0, 0.3); /* Green shadow for the footer */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}

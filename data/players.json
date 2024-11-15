@@ -1,0 +1,113 @@
+[
+      {
+        "name": "Pelé",
+        "nationality": "Brazilian",
+        "position": "Forward",
+        "birth_year": 1940,
+        "career_start": 1956,
+        "career_end": 1977,
+        "clubs": [
+          "Santos",
+          "New York Cosmos"
+        ],
+        "achievements": [
+          "3× FIFA World Cup Winner (1958, 1962, 1970)",
+          "FIFA Player of the Century (2000)"
+        ]
+      },
+      {
+        "name": "Diego Maradona",
+        "nationality": "Argentinian",
+        "position": "Attacking Midfielder",
+        "birth_year": 1960,
+        "career_start": 1976,
+        "career_end": 1997,
+        "clubs": [
+          "Boca Juniors",
+          "Barcelona",
+          "Napoli",
+          "Sevilla",
+          "Newell's Old Boys"
+        ],
+        "achievements": [
+          "FIFA World Cup Winner (1986)",
+          "FIFA Goal of the Century (2002)"
+        ]
+      },
+      {
+        "name": "Lionel Messi",
+        "nationality": "Argentinian",
+        "position": "Forward",
+        "birth_year": 1987,
+        "career_start": 2003,
+        "career_end": "Active",
+        "clubs": [
+          "Barcelona", 
+          "Paris Saint-Germain",
+          "Inter Miami"
+        ],
+        "achievements": [
+          "7× Ballon d'Or Winner",
+          "FIFA World Cup Winner (2022)",
+          "Copa América Winner (2021)"
+        ]
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "nationality": "Portuguese",
+        "position": "Forward",
+        "birth_year": 1985,
+        "career_start": 2002,
+        "career_end": "Active",
+        "clubs": [
+          "Sporting CP",
+          "Manchester United",
+          "Real Madrid",
+          "Juventus",
+          "Al Nassr"
+        ],
+        "achievements": [
+          "5× Ballon d'Or Winner",
+          "UEFA Champions League Winner (2008, 2014, 2016, 2017)",
+          "European Championship Winner (2016)"
+        ]
+      },
+      {
+        "name": "Zinedine Zidane",
+        "nationality": "French",
+        "position": "Attacking Midfielder",
+        "birth_year": 1972,
+        "career_start": 1988,
+        "career_end": 2006,
+        "clubs": [
+          "Bordeaux",
+          "Juventus",
+          "Real Madrid"
+        ],
+        "achievements": [
+          "FIFA World Cup Winner (1998)",
+          "UEFA Champions League Winner (2002)"
+        ]
+      },
+      {
+        "name": "Ronaldinho",
+        "nationality": "Brazilian",
+        "position": "Attacking Midfielder",
+        "birth_year": 1980,
+        "career_start": 1998,
+        "career_end": 2015,
+        "clubs": [
+          "Grêmio",
+          "Paris Saint-Germain",
+          "Barcelona",
+          "Milan",
+          "Flamengo",
+          "Atlético Mineiro"
+        ],
+        "achievements": [
+          "FIFA World Cup Winner (2002)",
+          "Ballon d'Or Winner (2005)"
+        ]
+    }
+]
+  
